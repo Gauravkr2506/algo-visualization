@@ -1,0 +1,24 @@
+.topDiv {
+    width: 100%;
+    height: 100%;
+     background-color: beige;
+     bottom: 0;
+     position: absolute;
+}
+
+.bar {
+    margin: 5;
+    background-color: blue;
+    position: relative;
+   top: 0;
+   width: 16;
+   color: yellow
+   
+}
+
+.display-style {
+     display: flex;
+}
+.options{
+    display: flex;
+}

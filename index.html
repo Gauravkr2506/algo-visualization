@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Virtulizer</title>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <script src="./index.js"></script>
+    </head>
+    <body onload="LoadData()">
+        <div class="topDiv">
+            <div style="width: 100%;height: 40;background-color: chartreuse;color: green;justify-content: center">
+            <h1>Comparing sorting and searching algorithm</h1>
+            </div>
+                <div class="display-style" id="display"  style="background-color: aqua; width:100%;height:80%">
+                    
+                    </div>
+            <div class="options">
+                <button onclick="Search()">Search</button>
+                <button onclick="BinarySearch()">Binary Search</button>
+                <button onclick="bubbleSort()">Bubble Sort</button>
+                <button onclick="selectionSort()">Selection Sort</button>
+                
+                <div class="options">
+                    <p>Automation speed:</p>
+                <input onchange="changeSpeed()" type="range" min="10" max="100" value="50" class="slider" id="myRange">
+                <p id="array">Array Size :20</p>
+                <input onchange="arrayGenerator()" type="range" min="3" max="50" value="20" class="slider" id="my_array">
+
+                </div>
+                <button onclick="arrayGenerator()">Shuffle Array</button>
+                <div>
+                  
+                </div>
+            </div>
+            
+
+        </div>
+    </body>
+</html>
