@@ -18,7 +18,7 @@ function initializeValue() {
 
 async function Search() {
   initializeValue();
-  type = "linear_search";
+  type = "search";
   var search_value = prompt("Please enter value to search", "5");
   if (!!search_value) {
     var n = arr.length;
