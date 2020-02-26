@@ -90,9 +90,11 @@ async function bubbleSort() {
   type = "bubble_sort";
   let len = arr.length;
   let swapped;
+  let x = -1;
   do {
     swapped = false;
-    for (i = 0; i < len - 1; i++) {
+    x++;
+    for (i = 0; i < len - 1 - x; i++) {
       bubble_sort_highlight_index = i;
       await showDisplay();
       if (arr[i] > arr[i + 1]) {
